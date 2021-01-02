@@ -19,14 +19,14 @@ def drawBlack(width, length):
             j += 1
 
 
-im = Image.open("C:\\Emil\\Proiecte\\Python\\Proiecte_Python\\Automation\\AutoDrawing\\hand2.jpg")
+im = Image.open("your link to the image folder")
 
 if (im.mode == "RGB"):
-    img = cv2.imread("C:\\Emil\\Proiecte\\Python\\Proiecte_Python\\Automation\\AutoDrawing\\hand2.jpg")
+    img = cv2.imread("your link to the image folder")
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite("C:\\Emil\\Proiecte\\Python\\Proiecte_Python\\Automation\\AutoDrawing\\MonaLisaGray.jpg", imgGray)
+    cv2.imwrite("your link to the image folder with other file name", imgGray)
     
-    im = Image.open("C:\\Emil\\Proiecte\\Python\\Proiecte_Python\\Automation\\AutoDrawing\\MonaLisaGray.jpg")
+    im = Image.open("your link to the image folder with other file name")
 
 
 px = im.load()
